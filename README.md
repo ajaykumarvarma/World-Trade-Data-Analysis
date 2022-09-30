@@ -19,6 +19,10 @@ Note:-Here these two files (2018-2010_export.csv and 2018-2010_import.csv) are 2
 
 3)Give all permissions to .java files go through all inner folders.So you can find .java files. Give rwx permissions for all users.
 
+Example:
+
+```chmod 777 /home/cloudera/World-Trade-Data-Analysis/src/main/java/com/samhad/app/CYApp.java```
+
 4)And also files you copied from local file system to hdfs,Give rwx permissions to 2 of those files.
 
 ```hadoop fs -chmod 777 /user/cloudera/tradedata/2018-2010_export.csv /user/cloudera/tradedata/2018-2010_import.csv```
