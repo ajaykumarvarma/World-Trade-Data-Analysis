@@ -19,4 +19,8 @@ Note:-Here these two files (2018-2010_export.csv and 2018-2010_import.csv) are 2
 
 To analyse overall data on the basis of Country and Year
 
-```hadoop jar worldwidetrade.jar com.samhad.app.CYApp <hdfs 2018-2010_export.csv file path> <hdfs 2018-2010_import.csv file path> <hdfs output path (outut will be stored here) >```
+```hadoop jar worldwidetrade.jar com.samhad.app.CYApp <hdfs 2018-2010_export.csv file path> <hdfs 2018-2010_import.csv file path> <hdfs output directory path (outut will be stored here) >```
+
+To analyse overall data on the basis of Commodity, Country and Year
+
+```hadoop jar worldwidetrade.jar com.samhad.app.CYCApp <hdfs 2018-2010_export.csv file path> <hdfs 2018-2010_import.csv file path> <hdfs output directory path (outut will be stored here) >```
