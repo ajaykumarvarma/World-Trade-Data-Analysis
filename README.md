@@ -15,7 +15,7 @@ Steps:
 
 ```hadoop fs -copyFromLocal 2018-2010_import.csv /user/cloudera/tradedata/```
 
-Note:-Here these two files (2018-2010_export.csv and 2018-2010_import.csv) are 2 input files represents country's Trade's goods imports and exports.
+Note:-Here these two files (2018-2010_export.csv and 2018-2010_import.csv) are 2 input files represents country's Trade goods imports and exports.
 
 3)Give all permissions to .java files go through all inner folders.So you can find .java files. Give rwx permissions for all users.
 
