@@ -27,7 +27,7 @@ Example:
 
 ```hadoop fs -chmod 777 /user/cloudera/tradedata/2018-2010_export.csv /user/cloudera/tradedata/2018-2010_import.csv```
 
-5) Now execute below final commands:
+5)Now execute below final commands:
 
 To analyse overall data on the basis of Country and Year
 
