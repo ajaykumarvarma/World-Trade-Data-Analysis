@@ -9,13 +9,21 @@ Steps:
 
 2)Use copyFromLocal to copy file (2018-2010_export.csv and 2018-2010_import.csv) from local to hdfs. 
 
+```hadoop fs -mkdir /user/cloudera/tradedata```
+
+```hadoop fs -copyFromLocal 2018-2010_export.csv /user/cloudera/tradedata/```
+
+```hadoop fs -copyFromLocal 2018-2010_import.csv /user/cloudera/tradedata/```
+
 Note:-Here these two files (2018-2010_export.csv and 2018-2010_import.csv) are 2 input files represents country's Trade's goods imports and exports.
 
 3)Give all permissions to .java files go through all inner folders.So you can find .java files. Give rwx permissions for all users.
 
 4)And also files you copied from local file system to hdfs,Give rwx permissions to 2 of those files.
 
-5)Now execute below final commands:
+```hadoop fs -chmod 777 /user/cloudera/tradedata/2018-2010_export.csv /user/cloudera/tradedata/2018-2010_import.csv```
+
+5) Now execute below final commands:
 
 To analyse overall data on the basis of Country and Year
 
